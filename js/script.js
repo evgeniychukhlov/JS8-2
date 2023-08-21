@@ -1,22 +1,17 @@
 "use strict";
 
+
+
 // Задача 1
-// const userPassword = prompt("Введіть пароль:");
-// const isValidPassword = validatePassword(userPassword);
+const userPassword = prompt("Введіть пароль:");
 
-// console.log(isValidPassword); 
+let firstChar = userPassword.charAt(0);
 
-// function validatePassword(password) {
-//     if (password.length < 8) {
-//         return false;
-//     }
+console.log (userPassword.length >= 8 && !isNaN(firstChar) );
 
-//     const firstChar = password.charAt(0);
-//     if (!isNaN(parseInt(firstChar))) {
-//         return true;
-//     }
 
-// }
+
+// console.log(typeof isValidPassword);
 // Задача 2
 
 // let userAmount = prompt("Вкажіть сумму в ГРН (лише число)");
