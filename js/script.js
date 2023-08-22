@@ -3,11 +3,11 @@
 
 
 // Задача 1
-const userPassword = prompt("Введіть пароль:");
+// const userPassword = prompt("Введіть пароль:");
 
-let firstChar = userPassword.charAt(0);
+// let firstChar = userPassword.charAt(0);
 
-console.log (userPassword.length >= 8 && !isNaN(firstChar) );
+// console.log (userPassword.length >= 8 && !isNaN(firstChar) );
 
 
 
@@ -24,7 +24,7 @@ console.log (userPassword.length >= 8 && !isNaN(firstChar) );
 
 // Задача 3
 
-// const petrolAmount = prompt("Вкажіть бажану кількість літрів бензину");
-// const petrolPrise = prompt ("Вкажіть вартість бензину за 1л");
-// const totalPrice = petrolAmount*petrolPrise; 
-// console.log ("Вартість складатиме", Math.round(totalPrice),"UAH");
+const petrolAmount = prompt("Вкажіть бажану кількість літрів бензину");
+const petrolPrise = prompt ("Вкажіть вартість бензину за 1л");
+const totalPrice = petrolAmount*petrolPrise; 
+console.log ("Вартість складатиме", totalPrice.toFixed(2),"UAH");
