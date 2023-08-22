@@ -27,4 +27,4 @@
 const petrolAmount = prompt("Вкажіть бажану кількість літрів бензину");
 const petrolPrise = prompt ("Вкажіть вартість бензину за 1л");
 const totalPrice = petrolAmount*petrolPrise; 
-console.log ("Вартість складатиме", totalPrice.toFixed(2),"UAH");
+console.log ("Вартість складатиме", (Math.round(totalPrice * 100) / 100),"UAH");
