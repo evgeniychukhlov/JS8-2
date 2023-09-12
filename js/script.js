@@ -1,30 +1,31 @@
 "use strict";
 
+// Цикли
+// завдання 1
+// var userNumber = prompt("Введіть число:");
+// if (!isNaN(userNumber)) {
+//    for (let i = 0; i <= userNumber; i += 2) {
+//     console.log(i);
+//   }
+// } else {
+//   console.log(userNumber ,"не є числом. Спробуйте ще раз.")
+// }
 
 
-// Задача 1
-// const userPassword = prompt("Введіть пароль:");
+// завдання 3
+// const resultsArray =  [1, 2, [3, [4]]];
+// let productOfArray = resultsArray.flat(Infinity) ; 
+// let result = 1;
 
-// let firstChar = userPassword.charAt(0);
+// for (let i = 0; i < productOfArray.length; i++) {
+//   result *= productOfArray[i];
+// }
 
-// console.log (userPassword.length >= 8 && !isNaN(firstChar) );
+// console.log(result);
 
+// задача 2
+const currentMaxValue = 4589;
+let reverseMaxValue = parseInt(currentMaxValue.toString().split('').reverse().join(''));
 
-
-// console.log(typeof isValidPassword);
-// Задача 2
-
-// let userAmount = prompt("Вкажіть сумму в ГРН (лише число)");
-// let rate = 36.91; 
-  
-// let amountUSD = userAmount/rate;
-
-// console.log("Ваша сума",userAmount,"UAH");
-// console.log("Конвертована сума",Math.round(amountUSD),"USD" );
-
-// Задача 3
-
-const petrolAmount = prompt("Вкажіть бажану кількість літрів бензину");
-const petrolPrise = prompt ("Вкажіть вартість бензину за 1л");
-const totalPrice = petrolAmount*petrolPrise; 
-console.log ("Вартість складатиме", (Math.round(totalPrice * 100) / 100),"UAH");
+console.log(reverseMaxValue); 
+console.log(typeof reverseMaxValue); 
