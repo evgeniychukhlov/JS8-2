@@ -2,7 +2,7 @@
 
 // Цикли
 // завдання 1
-// var userNumber = prompt("Введіть число:");
+// let userNumber = prompt("Введіть число:");
 // if (!isNaN(userNumber)) {
 //    for (let i = 0; i <= userNumber; i += 2) {
 //     console.log(i);
@@ -27,6 +27,7 @@
 // const currentMaxValue = 4589;
 // let reverseMaxValue = parseInt(currentMaxValue.toString().split('').reverse().join(''));
 
+<<<<<<< HEAD
 // console.log(reverseMaxValue); 
 // console.log(typeof reverseMaxValue); 
 
@@ -63,5 +64,6 @@
 // }
 
 // console.log(recursiveOddSumTo(1));  // 1
-// console.log(recursiveOddSumTo(9));  // 25
-// console.log(recursiveOddSumTo(10)); // 25
+// // console.log(recursiveOddSumTo(9));  // 25
+// // console.log(recursiveOddSumTo(10)); // 25
+
