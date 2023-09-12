@@ -2,7 +2,7 @@
 
 // Цикли
 // завдання 1
-// var userNumber = prompt("Введіть число:");
+// let userNumber = prompt("Введіть число:");
 // if (!isNaN(userNumber)) {
 //    for (let i = 0; i <= userNumber; i += 2) {
 //     console.log(i);
