@@ -24,8 +24,44 @@
 // console.log(result);
 
 // задача 2
-const currentMaxValue = 4589;
-let reverseMaxValue = parseInt(currentMaxValue.toString().split('').reverse().join(''));
+// const currentMaxValue = 4589;
+// let reverseMaxValue = parseInt(currentMaxValue.toString().split('').reverse().join(''));
 
-console.log(reverseMaxValue); 
-console.log(typeof reverseMaxValue); 
+// console.log(reverseMaxValue); 
+// console.log(typeof reverseMaxValue); 
+
+// hw2 - об'єкти та основи роботи з функціями
+
+
+// Напишіть функцію яка ітеративно (в циклі) буде знаходити суму всіх непарних додатніх чисел до якогось числа.
+
+
+// function iterativeOddSumTo(number) {
+// let sum = 0;
+ 
+//    for (let i = 1; i <= number; i += 2) {
+//       sum = sum + i;
+//   }
+// return sum;
+// }
+// console.log(iterativeOddSumTo(1)) // 1
+// console.log(iterativeOddSumTo(9)) // 25 1+3+5+7+9 = 25
+// console.log(iterativeOddSumTo(13)) // 1+3+5+7+9+11+13 = 49
+
+
+//     Напишіть функцію яка рекурсивно буде знаходити суму всіх непарних додатніх чисел до якогось числа.                            
+// function recursiveOddSumTo(number) {
+//   if (number <= 0) {
+//     return 0; 
+//   } else if (number % 2 === 0) {
+    
+//     return recursiveOddSumTo(number - 1);
+//   } else {
+   
+//     return number + recursiveOddSumTo(number - 2);
+//   }
+// }
+
+// console.log(recursiveOddSumTo(1));  // 1
+// console.log(recursiveOddSumTo(9));  // 25
+// console.log(recursiveOddSumTo(10)); // 25
