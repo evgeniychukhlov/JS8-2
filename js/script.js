@@ -27,7 +27,7 @@
 // const currentMaxValue = 4589;
 // let reverseMaxValue = parseInt(currentMaxValue.toString().split('').reverse().join(''));
 
-<<<<<<< HEAD
+
 // console.log(reverseMaxValue); 
 // console.log(typeof reverseMaxValue); 
 
@@ -51,19 +51,19 @@
 
 
 //     Напишіть функцію яка рекурсивно буде знаходити суму всіх непарних додатніх чисел до якогось числа.                            
-// function recursiveOddSumTo(number) {
-//   if (number <= 0) {
-//     return 0; 
-//   } else if (number % 2 === 0) {
+function recursiveOddSumTo(number) {
+  if (number <= 1) {
+    return 1; 
+  }  if (number % 2 === 0) {
     
-//     return recursiveOddSumTo(number - 1);
-//   } else {
+    return recursiveOddSumTo(number - 1);
+  } 
    
-//     return number + recursiveOddSumTo(number - 2);
-//   }
-// }
+    return number + recursiveOddSumTo(number - 2);
+  }
 
-// console.log(recursiveOddSumTo(1));  // 1
-// // console.log(recursiveOddSumTo(9));  // 25
-// // console.log(recursiveOddSumTo(10)); // 25
+
+console.log(recursiveOddSumTo(1));  // 1
+console.log(recursiveOddSumTo(9));  // 25
+console.log(recursiveOddSumTo(10)); // 25
 
